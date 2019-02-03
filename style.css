@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Задание 5-1 */
+table {
+    margin: 50px;
+    font-family: Impact, sans-serif;
+    font-size: 30px;
+    background-color: beige;
+    color: black;
+    outline: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    outline: 1px solid black;
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: brown;
+}
+
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: brown;
+}
+
+tr:last-child td:nth-child(odd),
+tr:first-child td:nth-child(even) {
+    background-color: beige;
+}
+
+tr:nth-child(even) td:first-child {
+    background-color: beige;
+}
+
+tr:nth-child(odd) td:last-child {
+    background-color: beige;
+}
+
+/* Задание 5-2 */
+
